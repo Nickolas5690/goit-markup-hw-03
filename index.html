@@ -18,7 +18,8 @@
   </head>
   <body>
     <header class="header">
-      <nav>
+      <div class="container nav">
+      <nav class="nav">
         <a class="header-logo link" href="/">
           Web<span class="header-span">Studio</span></a
         >
@@ -33,7 +34,7 @@
             <a class="header-link link" href="">Контакти</a>
           </li>
         </ul>
-      </nav>
+      </nav>    
       <a
         class="header-e-mail link"
         href="info@devstudio.com"
@@ -42,13 +43,14 @@
         >info@devstudio.com</a
       >
       <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
-    </header>
+      </div>
+    </header>  
     <main class="hero">
-      <section class="hero-top-section">
+      <section class="hero-top-section container section">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-btn" type="button">Замовити послугу</button>
       </section>
-      <section class="hero-under-top-section">
+      <section class="hero-under-top-section container section container">
         <ul class="hero-under-top-list">
           <li class="hero-under-top-item list">
             <h3 class="hero-under-top-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -79,7 +81,7 @@
           </li>
         </ul>
       </section>
-      <section class="hero-midle-section">
+      <section class="hero-midle-section container section">
         <h2 class="hero-midle-title">Чим ми займаємося</h2>
         <ul class="hero-midle-list">
           <li class="hero-midle-item list">
@@ -93,7 +95,7 @@
           </li>
         </ul>
       </section>
-      <section class="hero-down-section">
+      <section class="hero-down-section container section">
         <h2 class="hero-down-top-title">Наша команда</h2>
         <ul class="hero-down-list">
           <li class="hero-down-item list">
@@ -132,11 +134,13 @@
       </section>
     </main>
     <footer class="footer">
+      <div class="container section">
       <a class="header-logo link" href="/">
         Web<span class="footer-span">Studio</span></a
       >
       <address class="footer-address">
         <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
+        </address>
         <a
           class="footer-e-mail link"
           href="info@devstudio.com"
@@ -144,10 +148,11 @@
           title="e-mail"
           >info@devstudio.com</a
         >
-        <a class="footer-tel link" href="tel:+380961111111"
+        <div class="footer-div"><a class="footer-tel link" href="tel:+380961111111"
           >+38 096 111 11 11</a
         >
-      </address>
+      </div>
+          </div>
     </footer>
   </body>
 </html>
