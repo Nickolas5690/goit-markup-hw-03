@@ -16,13 +16,13 @@ ul {
 .container {
   width: 1200px;
   margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-bottom: 94px;  
 }
 
 body {
@@ -113,6 +113,8 @@ body {
 .hero-top-section {
   text-align: center;
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -173,6 +175,10 @@ margin-right: 30px;
   color: var(--other-text-color);
 }
 
+.hero-midle-section {
+  padding-top: 0px;
+}
+
 .hero-midle-title {
   margin-bottom: 50px;
 
@@ -191,6 +197,10 @@ margin-right: 30px;
 /* .hero-midle-item:not(:last-child) {
   margin-right: 30px;
 } */
+
+.hero-down-section {
+  background: #F5F4FA;
+}
 
 .hero-down-top-title {
   margin-bottom: 50px;
@@ -211,8 +221,21 @@ margin-right: 30px;
   margin-right: 30px;
 } */
 
+.hero-down-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.hero-down-img { 
+  display: block;
+}
+
+.hero-down-div {   
+  padding-top: 30px;
+  padding-bottom: 30px;  
+}
+
 .hero-down-title {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -234,6 +257,8 @@ margin-right: 30px;
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-address {
@@ -323,8 +348,11 @@ margin-right: 30px;
   margin-bottom: 30px;
 } */
 
-.examples-title {
-  margin-top: 20px;
+.examples-div {
+  padding: 20px 24px;
+}
+
+.examples-title {  
   margin-bottom: 4px;
 
   font-weight: 700;

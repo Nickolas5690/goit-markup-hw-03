@@ -5,19 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
   </head>
 
@@ -53,9 +49,10 @@
       </div>
     </header>
 
-    <main class="hero">
-      <section class="portfolio container section">
-        <ul class="portfolio-list list">
+    <main class="portfolio">
+      <section class="portfolio section">
+        <div class="container">
+          <ul class="portfolio-list list">
           <li class="portfolio-item">
             <button type="button" class="portfolio-btn">Усі</button>
           </li>
@@ -75,55 +72,74 @@
         <!--------------------- EXAMPLES ------------------------->
         <ul class="examples-list list">
           <li class="examples-item">
-            <img src="./images/port.jpg" alt="ноутбук" width="370" />
-            <h1 class="examples-title">Технокряк</h1>
+            <img class="hero-down-img" src="./images/port.jpg" alt="ноутбук" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Технокряк</h3>
             <p class="examples-text">Веб-сайт</p>
+            </div>            
           </li>
           <li class="examples-item">
-            <img src="./images/port1.jpg" alt="два баскетболіста" width="370" />
-            <h1 class="examples-title">Постер New Orlean vs Golden Star</h1>
+            <img class="hero-down-img" src="./images/port1.jpg" alt="два баскетболіста" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Постер New Orlean vs Golden Star</h3>
             <p class="examples-text">Дизайн</p>
+            </div>            
           </li>
           <li class="examples-item">
-            <img src="./images/port2.jpg" alt="лого ресторану" width="370" />
-            <h1 class="examples-title">Ресторан Seafood</h1>
+            <img class="hero-down-img" src="./images/port2.jpg" alt="лого ресторану" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Ресторан Seafood</h3>
             <p class="examples-text">Додаток</p>
+            </div>            
           </li>
           <li class="examples-item">
-            <img src="./images/port3.jpg" alt="навушники" width="370" />
-            <h1 class="examples-title">Проєкт Prime</h1>
+            <img class="hero-down-img" src="./images/port3.jpg" alt="навушники" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Проєкт Prime</h3>
             <p class="examples-text">Маркетинг</p>
+            </div>            
           </li>
           <li class="examples-item">
-            <img src="./images/port4.jpg" alt="дві коробки" width="370" />
-            <h1 class="examples-title">Проєкт Boxes</h1>
+            <img class="hero-down-img" src="./images/port4.jpg" alt="дві коробки" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Проєкт Boxes</h3>
             <p class="examples-text">Додаток</p>
+            </div>            
           </li>
           <li class="examples-item">
-            <img src="./images/port5.jpg" alt="єкран з сайтом" width="370" />
-            <h1 class="examples-title">Inspiration has no Borders</h1>
+            <img class="hero-down-img" src="./images/port5.jpg" alt="єкран з сайтом" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Inspiration has no Borders</h3>
             <p class="examples-text">Веб-сайт</p>
+            </div>            
           </li>
           <li class="examples-item">
-            <img src="./images/port6.jpg" alt="журнал" width="370" />
-            <h1 class="examples-title">Видання Limited Edition</h1>
+            <img class="hero-down-img" src="./images/port6.jpg" alt="журнал" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Видання Limited Edition</h3>
             <p class="examples-text">Дизайн</p>
+            </div>            
           </li>
           <li class="examples-item">
-            <img src="./images/port7.jpg" alt="лейба" width="370" />
-            <h1 class="examples-title">Проєкт LAB</h1>
+            <img class="hero-down-img" src="./images/port7.jpg" alt="лейба" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Проєкт LAB</h3>
             <p class="examples-text">Маркетинг</p>
+            </div>            
           </li>
           <li class="examples-item">
-            <img src="./images/port8.jpg" alt="ноутбук з сайтом" width="370" />
-            <h1 class="examples-title">Growing Business</h1>
+            <img class="hero-down-img" src="./images/port8.jpg" alt="ноутбук з сайтом" width="370" />
+            <div class="examples-div">
+              <h3 class="examples-title">Growing Business</h3>
             <p class="examples-text">Додаток</p>
+            </div>            
           </li>
         </ul>
+        </div>        
       </section>
     </main>
     <footer class="footer">
-      <div class="container section">
+      <div class="container">
         <a class="header-logo link" href="/">
           Web<span class="footer-span">Studio</span></a
         >

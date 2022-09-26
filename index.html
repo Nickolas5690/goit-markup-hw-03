@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,14 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+    </head>
 
   <body>
     <header class="header">
@@ -54,43 +50,48 @@
     </header>
 
     <main class="hero">
-      <section class="hero-top-section container section">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hero-btn" type="button">Замовити послугу</button>
+      <section class="hero-top-section section">
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для <br>вашого бізнесу<br></h1>
+          <button class="hero-btn" type="button">Замовити послугу</button>
+        </div>
       </section>
-      <section class="hero-under-top-section container section container">
-        <ul class="hero-under-top-list">
-          <li class="hero-under-top-item list">
-            <h3 class="hero-under-top-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="hero-under-top-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="hero-under-top-item list">
-            <h3 class="hero-under-top-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="hero-under-top-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="hero-under-top-item list">
-            <h3 class="hero-under-top-title">ПЛАНУВАННЯ</h3>
-            <p class="hero-under-top-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="hero-under-top-item list">
-            <h3 class="hero-under-top-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="hero-under-top-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="hero-under-top-section section">
+        <div class="container">
+          <ul class="hero-under-top-list">
+            <li class="hero-under-top-item list">
+              <h3 class="hero-under-top-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="hero-under-top-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="hero-under-top-item list">
+              <h3 class="hero-under-top-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="hero-under-top-text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне
+                у себе.
+              </p>
+            </li>
+            <li class="hero-under-top-item list">
+              <h3 class="hero-under-top-title">ПЛАНУВАННЯ</h3>
+              <p class="hero-under-top-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="hero-under-top-item list">
+              <h3 class="hero-under-top-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="hero-under-top-text">
+                Значимість цих проблем настільки очевидна, що реалізація планових
+                завдань.
+              </p>
+            </li>
+          </ul>
+        </div>        
       </section>
-      <section class="hero-midle-section container section">
-        <h2 class="hero-midle-title">Чим ми займаємося</h2>
+      <section class="hero-midle-section section">
+        <div class="container">
+          <h2 class="hero-midle-title">Чим ми займаємося</h2>
         <ul class="hero-midle-list">
           <li class="hero-midle-item list">
             <img src="./images/box-1.jpg" alt="набирання коду" width="370" />
@@ -102,47 +103,58 @@
             <img src="./images/box-3.jpg" alt="вибір кольору" width="370" />
           </li>
         </ul>
+        </div>        
       </section>
-      <section class="hero-down-section container section">
-        <h2 class="hero-down-top-title">Наша команда</h2>
+      <section class="hero-down-section section">
+        <div class="container">
+          <h2 class="hero-down-top-title">Наша команда</h2>
         <ul class="hero-down-list">
           <li class="hero-down-item list">
-            <img
+            <img class="hero-down-img"
               src="./images/img.jpg"
               alt="бородатий мужик в окулярах"
-              width="270"
+              width="270"                           
             />
-            <h3 class="hero-down-title">Ігор Дем'яненко</h3>
+            <div class="hero-down-div">
+              <h3 class="hero-down-title">Ігор Дем'яненко</h3>
             <p class="hero-down-text">Product Designer</p>
+            </div>            
           </li>
           <li class="hero-down-item list">
-            <img
+            <img class="hero-down-img"
               src="./images/img(1).jpg"
               alt="дівчина в окулярах"
               width="270"
             />
-            <h3 class="hero-down-title">Ольга Рєпіна</h3>
+            <div class="hero-down-div">
+              <h3 class="hero-down-title">Ольга Рєпіна</h3>
             <p class="hero-down-text">Frontend Developer</p>
+            </div>            
           </li>
           <li class="hero-down-item list">
-            <img src="./images/img(2).jpg" alt="бородатий мужик" width="270" />
-            <h3 class="hero-down-title">Микола Тарасов</h3>
+            <img class="hero-down-img" src="./images/img(2).jpg" alt="бородатий мужик" width="270" />
+            <div class="hero-down-div">
+              <h3 class="hero-down-title">Микола Тарасов</h3>
             <p class="hero-down-text">Marketing</p>
+            </div>            
           </li>
           <li class="hero-down-item list">
-            <img
+            <img class="hero-down-img"
               src="./images/img(3).jpg"
               alt="бородатий мужик в окулярах"
               width="270"
             />
-            <h3 class="hero-down-title">Михайло Єрмаков</h3>
+            <div class="hero-down-div">
+              <h3 class="hero-down-title">Михайло Єрмаков</h3>
             <p class="hero-down-text">UI Designer</p>
+            </div>            
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container section">
+      <div class="container">
         <a class="header-logo link" href="/">
           Web<span class="footer-span">Studio</span></a
         >
